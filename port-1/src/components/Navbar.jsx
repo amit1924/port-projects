@@ -1,12 +1,15 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import Hero from "./Hero";
 
-const Navbar = () => {
+const Navbar = ({ AiOutlineArrowUp }) => {
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
+    <AiOutlineArrowUp size={0} />;
   };
 
   return (
@@ -39,6 +42,11 @@ const Navbar = () => {
           nav
             ? "fixed left-0 top-0 w-[60%] h-full bg-stone-900 text-yellow-500 ease-in-out duration-500 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f] z-40"
             : "fixed left-[-100%] top-0 w-[60%] h-full bg-stone-900 text-yellow-500 ease-in-out duration-500"
+        }
+        onClick={() =>
+          setTimeout(() => {
+            setNav(false);
+          }, 1000)
         }
       >
         <h1 className="text-3xl font-bold primary-color m-4">@mit</h1>

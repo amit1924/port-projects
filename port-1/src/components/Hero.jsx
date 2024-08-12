@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaUserTie } from "react-icons/fa";
+
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
