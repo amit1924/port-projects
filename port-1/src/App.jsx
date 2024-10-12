@@ -9,6 +9,8 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import TechStacks from "./components/TechStacks";
 
+// import ChatBot from "./pages/ChatBot";
+
 const App = () => {
   const topRef = useRef(null);
   const bottomRef = useRef(null);
@@ -34,6 +36,7 @@ const App = () => {
       <Work />
       <TechStacks />
       <Contact />
+      {/* <ChatBot /> */}
       <Footer />
       <div ref={bottomRef}></div>
 

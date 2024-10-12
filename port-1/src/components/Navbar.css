@@ -1,0 +1,44 @@
+.animate-ball {
+    position: relative;
+    animation: moveBall 15s ease-in-out infinite;
+  }
+  
+  @keyframes moveBall {
+    0% {
+      transform: translateX(0) rotate(0deg);
+    }
+    50% {
+      transform: translateX(calc(100vw - 800px)) rotate(360deg); /* Adds rotation */
+    }
+    100% {
+      transform: translateX(0) rotate(720deg); /* Completes two full rotations */
+    }
+  }
+
+ 
+  @media screen and (max-width:700px) {
+    .animate-ball{
+        visibility: hidden;
+    }
+    .animate-balls {
+        position: relative;
+        animation: moveBall 15s linear infinite;
+      }
+      
+      @keyframes moveBall {
+        0% {
+          transform:translateX(calc(35vw)) translateY(0)  rotate(0deg);
+        }
+        50% {
+          transform:translateX(calc(35vw)) translateY(calc(100vh)) rotate(360deg); /* Adds rotation */
+        }
+        100% {
+          transform:translateX(calc(35vw)) translateY(0) rotate(720deg); /* Completes two full rotations */
+        }
+      }
+  }
+   
+  
+  
+
+  

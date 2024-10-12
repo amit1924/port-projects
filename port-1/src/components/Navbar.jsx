@@ -3,7 +3,8 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Hero from "./Hero";
-
+import Portfolio from "../assets/logo.png";
+import "./Navbar.css";
 const Navbar = ({ AiOutlineArrowUp }) => {
   const [nav, setNav] = useState(false);
 
@@ -14,7 +15,13 @@ const Navbar = ({ AiOutlineArrowUp }) => {
 
   return (
     <div className="bg-stone-900 text-yellow-500  flex justify-between items-center max-w-[1240px] mx-auto h-24 px-4 text-l shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
-      <h1 className="text-3xl font-bold primary-color ml-4">@mit</h1>
+      {/* <h1 className="animate-ball">HTML CSS JS REACT JS NEXT JS MONGODB PYTHON DJANGO FLASK</h1> */}
+      <img
+        src={Portfolio}
+        alt="logo"
+        className="rounded-2xl w-[50px] h-[50px] border-[3px] border-black shadow-[0_4px_15px_rgba(0,0,255,0.6)] transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-[0_6px_20px_rgba(0,128,255,0.8)] hover:border-[#f3f3f3] "
+      />
+
       <ul className="hidden md:flex">
         <li className="p-2">
           <a href="#hero">Home</a>
@@ -49,7 +56,11 @@ const Navbar = ({ AiOutlineArrowUp }) => {
           }, 1000)
         }
       >
-        <h1 className="text-3xl font-bold primary-color m-4">@mit</h1>
+        <img
+          src={Portfolio}
+          alt="logo"
+          className="rounded-2xl w-[50px] h-[50px] border-[3px] ml-6 mt-3  border-[#08f] shadow-[0_4px_15px_rgba(0,0,255,0.6)] transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-[0_6px_20px_rgba(0,128,255,0.8)] hover:border-[#f3f3f3]"
+        />
         <ul className="flex flex-col p-4">
           <li className="p-2">
             <a href="#hero">Home</a>
