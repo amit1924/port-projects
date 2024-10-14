@@ -14,7 +14,7 @@ const Navbar = ({ AiOutlineArrowUp }) => {
   };
 
   return (
-    <div className="bg-stone-900 text-yellow-500  flex justify-between items-center max-w-[1240px] mx-auto h-24 px-4 text-l shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
+    <div className="bg-stone-900 text-yellow-500   flex justify-between items-center max-w-[1240px] mx-auto h-24 px-4 text-l shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
       {/* <h1 className="animate-ball">HTML CSS JS REACT JS NEXT JS MONGODB PYTHON DJANGO FLASK</h1> */}
       <img
         src={Portfolio}
@@ -22,20 +22,20 @@ const Navbar = ({ AiOutlineArrowUp }) => {
         className="rounded-2xl w-[50px] h-[50px] border-[3px] border-black shadow-[0_4px_15px_rgba(0,0,255,0.6)] transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-[0_6px_20px_rgba(0,128,255,0.8)] hover:border-[#f3f3f3] "
       />
 
-      <ul className="hidden md:flex">
-        <li className="p-2">
+      <ul className="hidden md:flex ">
+        <li className="p-2 transition-all ease-in-out duration-100 transfom  hover:bg-pink-900 hover:underline hover:rounded-2xl ">
           <a href="#hero">Home</a>
         </li>
-        <li className="p-2">
+        <li className="p-2 transition-all ease-in-out duration-100 transfom  hover:bg-pink-900 hover:underline hover:rounded-2xl">
           <a href="#about">About</a>
         </li>
-        <li className="p-2">
+        <li className="p-2 transition-all ease-in-out duration-100 transfom  hover:bg-pink-900 hover:underline hover:rounded-2xl">
           <a href="#work">Work</a>
         </li>
-        <li className="p-2">
+        <li className="p-2 transition-all ease-in-out duration-100 transfom  hover:bg-pink-900 hover:underline hover:rounded-2xl">
           <a href="#techstacks">Tech Stacks</a>
         </li>
-        <li className="p-2">
+        <li className="p-2 transition-all ease-in-out duration-100 transfom  hover:bg-pink-900 hover:underline hover:rounded-2xl">
           <a href="#contact">contact</a>
         </li>
       </ul>
@@ -62,19 +62,19 @@ const Navbar = ({ AiOutlineArrowUp }) => {
           className="rounded-2xl w-[50px] h-[50px] border-[3px] ml-6 mt-3  border-[#08f] shadow-[0_4px_15px_rgba(0,0,255,0.6)] transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-[0_6px_20px_rgba(0,128,255,0.8)] hover:border-[#f3f3f3]"
         />
         <ul className="flex flex-col p-4">
-          <li className="p-2">
+          <li className="p-2 transition-all ease-in-out duration-100 transfom  hover:bg-pink-900 hover:underline hover:rounded-2xl">
             <a href="#hero">Home</a>
           </li>
-          <li className="p-2">
+          <li className="p-2 transition-all ease-in-out duration-100 transfom  hover:bg-pink-900 hover:underline hover:rounded-2xl">
             <a href="#about">About</a>
           </li>
-          <li className="p-2">
+          <li className="p-2 transition-all ease-in-out duration-100 transfom  hover:bg-pink-900 hover:underline hover:rounded-2xl">
             <a href="#work">Work</a>
           </li>
-          <li className="p-2">
+          <li className="p-2 transition-all ease-in-out duration-100 transfom  hover:bg-pink-900 hover:underline hover:rounded-2xl">
             <a href="#techstacks">Tech Stacks</a>
           </li>
-          <li className="p-2">
+          <li className="p-2 transition-all ease-in-out duration-100 transfom  hover:bg-pink-900 hover:underline hover:rounded-2xl">
             <a href="#contact">contact</a>
           </li>
         </ul>
