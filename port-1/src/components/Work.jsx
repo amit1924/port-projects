@@ -12,26 +12,35 @@ const Work = () => {
       link: "https://digital-ecommerce-frontend.vercel.app",
     },
     {
-      title: "Video Call App",
-      description: "A social media platform to connect with friends.",
+      title: "AI Assitant App",
+      description:
+        "This project is made by usinh latest react js and using AI pi key",
       imgUrl:
-        "https://cdn4.vectorstock.com/i/thumb-large/07/48/isometric-concept-of-world-global-communication-vector-21060748.jpg",
-      link: "https://nextjs-projects-bice-mu.vercel.app/",
+        "https://images.prismic.io/turing/652ec640fbd9a45bcec819fd_AI_Powered_Virtual_Assistant_c6d268785b.webp?auto=format,compress",
+      link: "https://ai-app-swart-zeta.vercel.app/",
     },
     {
-      title: "Portfolio Website",
+      title: "Flask Portfolio Website",
       description: "A personal portfolio to showcase my skills and projects.",
       imgUrl:
-        "https://cdn.pixabay.com/photo/2017/01/29/13/21/mobile-devices-2017981_960_720.png",
-      link: "https://my-portfolio-website-mu-steel.vercel.app/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy7XllW88Ts4Wq8b2hJ1p5uXVkTLKh5TbaMw&s",
+      link: "https://flask-portfolio-ten.vercel.app//",
     },
     {
       title: "React js Project",
       description:
         "Made project on e-commerce for filtering items and categories.",
       imgUrl:
-        "https://www.a2hosting.com/blog/content/uploads/2020/07/featured-react-framework.jpg",
+        "https://bsmedia.business-standard.com/_media/bs/img/article/2016-11/15/full/1479216270-9932.jpg?im=FeatureCrop,size=(803,452)",
       link: "https://react-ecom-mu.vercel.app/",
+    },
+    {
+      title: "AI image generator app",
+      description:
+        "This project is made in React and using AI to generate prompt images",
+      imgUrl:
+        "https://image.pollinations.ai/prompt/Generate%20image%20of%20bear%20bathing%20in%20pond?width=512&height=512&seed=45&model=flux",
+      link: "https://image-generator-frontend-plum.vercel.app/",
     },
   ];
 
