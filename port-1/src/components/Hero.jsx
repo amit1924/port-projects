@@ -30,7 +30,8 @@ const Hero = () => {
             />
           </h1>
           <p className="md:text-5xl sm:text-4xl text-xl font-bold text-[#a78bfa]">
-            with experiences on many projects
+            I build things for the web application that will work with your
+            business.
           </p>
 
           {/* Social Media Icons */}
@@ -44,7 +45,7 @@ const Hero = () => {
               <AiFillLinkedin className="text-[#0e76a8] hover:text-[#a78bfa] w-8 h-8 sm:w-10 sm:h-10 transition duration-300" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/amit1924?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
               className="transform transition-transform hover:scale-110"
@@ -64,8 +65,8 @@ const Hero = () => {
           {/* Download CV Button */}
           <div className="mt-6">
             <a
-              href="/path/to/your-cv.pdf"
-              download="Amit_Kumar_CV.pdf"
+              href="/resume2025.pdf"
+              download="amit_resume.pdf"
               className="inline-block bg-[#000000] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#1d0e20] transition duration-600 hover:shadow-[0_0_15px_#a78bfa] animate-pulse shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]"
             >
               Download CV

@@ -9,7 +9,7 @@ const Work = () => {
       description: "An online platform for buying and selling products.",
       imgUrl:
         "https://cdn.pixabay.com/photo/2024/06/18/11/14/e-commerce-8837703_960_720.jpg",
-      link: "https://digital-ecommerce-frontend.vercel.app",
+      link: "https://ai-app-swart-zeta.vercel.app/",
     },
     {
       title: "AI Assitant App",

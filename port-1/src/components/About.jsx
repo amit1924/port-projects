@@ -51,9 +51,13 @@ const About = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.7 }}
             >
-              I'm Amit, a passionate developer with a strong background in both
-              frontend and backend development. I love creating dynamic,
-              responsive, and visually appealing websites and applications.
+              My name is Amit Kumar, and I am a fresher full-stack developer
+              passionate about building interactive web applications and solving
+              complex problems. I have a solid foundation in both frontend and
+              backend technologies. I completed my engineering degree in
+              electrical engineering, where I developed a strong interest in
+              software development. Throughout my studies, I have honed my
+              skills in HTML, CSS, JavaScript, and frameworks like React.
             </motion.p>
             <motion.p
               className="text-lg text-gray-300 mt-4"
@@ -61,11 +65,10 @@ const About = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.9 }}
             >
-              With a strong understanding of various technologies, I aim to
-              provide solutions that not only meet client requirements but also
-              exceed their expectations. My goal is to continuously learn and
-              grow in the field of web development, ensuring I stay updated with
-              the latest trends and technologies.
+              I am eager to collaborate with innovative teams and contribute to
+              projects that create impactful user experiences. I am constantly
+              learning and adapting to new technologies to enhance my skill set
+              and stay up-to-date with industry trends.
             </motion.p>
             <motion.p
               className="text-lg text-gray-300 mt-4"
