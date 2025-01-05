@@ -8,7 +8,7 @@ const Work = () => {
       title: "Portfolio Chatbot",
       description: "This is the chatbot you can ask anything about me.",
       imgUrl:
-        "https://media.istockphoto.com/id/1488105257/photo/chatbot-powered-by-ai-transforming-industries-and-customer-service-yellow-chatbot-icon-over.jpg?s=2048x2048&w=is&k=20&c=y11AUpcpoN4X4e-UUa7S8MSPy2iqpCwKX22mb6rXyBI=",
+        "https://cdn.pixabay.com/photo/2019/01/16/20/52/chatbot-3936760_1280.jpg",
       link: "https://portfolio-chat-bot.vercel.app/",
     },
     {
@@ -20,9 +20,9 @@ const Work = () => {
       link: "https://ai-app-swart-zeta.vercel.app/",
     },
     {
-      title: "Flask Auth App",
+      title: "Python Auth App",
       description:
-        "This project is made in Flask and using JWT for authentication.",
+        "This project is made in Flask framework and using JWT for authentication.",
       imgUrl:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy7XllW88Ts4Wq8b2hJ1p5uXVkTLKh5TbaMw&s",
       link: "https://flask-portfolio-ten.vercel.app//",
