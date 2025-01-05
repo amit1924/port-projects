@@ -5,11 +5,11 @@ import { motion, useInView } from "framer-motion";
 const Work = () => {
   const projects = [
     {
-      title: "E-commerce Website",
-      description: "An online platform for buying and selling products.",
+      title: "Portfolio Chatbot",
+      description: "This is the chatbot you can ask anything about me.",
       imgUrl:
-        "https://cdn.pixabay.com/photo/2024/06/18/11/14/e-commerce-8837703_960_720.jpg",
-      link: "https://ai-app-swart-zeta.vercel.app/",
+        "https://media.istockphoto.com/id/1488105257/photo/chatbot-powered-by-ai-transforming-industries-and-customer-service-yellow-chatbot-icon-over.jpg?s=2048x2048&w=is&k=20&c=y11AUpcpoN4X4e-UUa7S8MSPy2iqpCwKX22mb6rXyBI=",
+      link: "https://portfolio-chat-bot.vercel.app/",
     },
     {
       title: "AI Assitant App",
@@ -20,19 +20,19 @@ const Work = () => {
       link: "https://ai-app-swart-zeta.vercel.app/",
     },
     {
-      title: "Flask Portfolio Website",
-      description: "A personal portfolio to showcase my skills and projects.",
+      title: "Flask Auth App",
+      description:
+        "This project is made in Flask and using JWT for authentication.",
       imgUrl:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy7XllW88Ts4Wq8b2hJ1p5uXVkTLKh5TbaMw&s",
       link: "https://flask-portfolio-ten.vercel.app//",
     },
     {
-      title: "React js Project",
-      description:
-        "Made project on e-commerce for filtering items and categories.",
+      title: "Digital E-commerce App",
+      description: "Made project by using latest react js",
       imgUrl:
         "https://bsmedia.business-standard.com/_media/bs/img/article/2016-11/15/full/1479216270-9932.jpg?im=FeatureCrop,size=(803,452)",
-      link: "https://react-ecom-mu.vercel.app/",
+      link: "https://digital-ecommerce-frontend.vercel.app/",
     },
     {
       title: "AI image generator app",
