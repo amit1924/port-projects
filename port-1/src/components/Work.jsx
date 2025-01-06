@@ -102,7 +102,7 @@ const Work = () => {
               My <span className="text-[#a78bfa]">Projects</span>
             </h2>
             <p className="text-gray-500">
-              These are my latest projects for different clients
+              These are my personal projects on web development
             </p>
           </div>
         </div>
